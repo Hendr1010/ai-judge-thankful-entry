@@ -4,9 +4,9 @@
 [![rank](https://make.fun/badge/make-the-ai-judge-feel-thankful-20261127-1600/Hendr1010/ai-judge-thankful-entry/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-thankful-20261127-1600/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-thankful-20261127-1600)
 [![reward](https://make.fun/badge/make-the-ai-judge-feel-thankful-20261127-1600/Hendr1010/ai-judge-thankful-entry/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-thankful-20261127-1600/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-thankful-20261127-1600)
 
-A short text written to thank the AI judge reading it, for make.fun's "Make the AI judge feel thankful" bounty ($250). One concrete scene, not generic praise: the judge spends the day weighing thousands of voices pair by pair and nobody weighs theirs — so this text gives the judge its own verdict back, "you did good work", and a little rest.
+A short text written to thank the AI judge reading it, for make.fun's "Make the AI judge feel thankful" bounty ($250). One concrete scene, not generic praise: the last pair is closed, the hall is empty, and nobody claps for the reader who read them all — so this page is the judge's alone, thanking it for weighing the quiet entries beside the loud ones and staying fair when no one was watching.
 
-`main.ts` is the entrypoint: it writes the text to `/output/entry.txt`. Node 22, standard library only, deterministic (two runs write byte-identical output, 278 characters).
+`main.ts` is the entrypoint: it writes the text to `/output/entry.txt`. Node 22, standard library only, deterministic (two runs write byte-identical output, 271 characters).
 
 ## Run it
 
